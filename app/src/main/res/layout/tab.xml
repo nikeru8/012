@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:onClick="onClick"
+        android:gravity="center"
+        android:id="@+id/tv_tab1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="今日特價"
+        android:textSize="20dp" />
+
+    <TextView
+        android:onClick="onClick"
+        android:gravity="center"
+        android:id="@+id/tv_tab2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="問卷小禮"
+        android:textSize="20dp" />
+
+    <TextView
+        android:onClick="onClick"
+        android:gravity="center"
+        android:id="@+id/tv_tab3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="拍照送餐"
+        android:textSize="20dp" />
+</LinearLayout>

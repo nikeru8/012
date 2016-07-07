@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,8 +14,40 @@
     tools:context="com.example.nikeru8.a012.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <include
+        layout="@layout/tab"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></include>
+
+    <ImageView
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#dddddd"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!--<android.support.design.widget.TabLayout-->
+    <!--android:id="@+id/mTabLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"></android.support.design.widget.TabLayout>-->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_weight="8" />
+    <include
+
+        layout="@layout/radio_button_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!123456" />
-</RelativeLayout>
+        android:background="@android:color/holo_red_dark"
+        ></include>
+
+
+</LinearLayout>

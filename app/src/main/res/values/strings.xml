@@ -1,8 +1,44 @@
 <resources>
-    <string name="app_name">012</string>
-
+    <string name="nulll">您未選擇</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">首頁</string>
+    <string name="app_name">寬巷子</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="question_1">請問 \u00A0\u00A0\u00A0  紅泥小染 \u00A0\u00A0\u00A0 是屬於哪一地區的麻辣呢?</string>
+
+    <string name="question_1_radio_a">\u00A0\u00A0四川</string>
+    <string name="question_1_radio_b">\u00A0\u00A0台式</string>
+    <string name="question_1_radio_c">\u00A0\u00A0新疆</string>
+
+     <string name="question_2">
+        <![CDATA[
+        請問
+        <br><br>
+        \u00A0\u00A0\u00A0\u00A0<b><font color="blue">&lt;玫瑰松坂&gt;</font></b>
+        <br><br>
+        是用豬的哪一個部位做成的呢?
+        ]]>
+    </string>
+
+    <string name="question_2_radio_a">豬蹄</string>
+    <string name="question_2_radio_b">
+        <![CDATA[
+        豬肚肉<br>
+
+        ]]>
+    </string>
+    <string name="question_2_radio_c">豬後頸肉</string>
+
+    <string name="question_3">
+        <![CDATA[
+        寬巷子的和牛是使用市面上少見的M12等級牛的哪個部位？<br>
+        ]]>
+    </string>
+    <string name="question_3_radio_a">牛肚肉</string>
+    <string name="question_3_radio_b">莎朗部位</string>
+    <string name="question_3_radio_c">屁股部位</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
